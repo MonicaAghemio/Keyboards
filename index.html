@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./app.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <nav id="navbar">
+        <span><a like href="#home"> Home</a></span>
+        <span><a like href="#parts">Parts</a> </span>
+        <span><a like href="#switch">Switches</a> </span>
+        <span><a like href="#sizes">Sizes</a> </span>
+        <span><a href="#">Others</a> </span>
+      </nav>
+    </div>
+    <div id="home" class="flex-container">
+      <h1>What is a Mechanical Keyboard?</h1>
+      <p class="text1">
+        Mechanical keyboards is a keyboard made with high-quality plastic
+        switches underneath each keycap. While being used, a physical switch
+        (spring loaded) is pressed everytime a key is pushed down.
+      </p>
+    </div>
+    <div class="container">
+      <div class="carousel-content"></div>
+      <div class="slideshow">
+        <!-- carousel control buttons -->
+        <button class="slide-btn slide-btn-1"></button>
+        <button class="slide-btn slide-btn-2"></button>
+        <button class="slide-btn slide-btn-3"></button>
+        <button class="slide-btn slide-btn-4"></button>
+        <!-- carousel wrapper which contains all images -->
+        <div class="slideshow-wrapper">
+          <div class="slide">
+            <img class="slide-img" src="./keyboard.jpg" />
+          </div>
+          <div class="slide">
+            <img class="slide-img" src="./keyboard2.png" />
+          </div>
+          <div class="slide">
+            <img class="slide-img" src="./keyboard3.jpg" />
+          </div>
+          <div class="slide">
+            <img class="slide-img" src="./keyboard4.jpg" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="flex-container">
+      <p class="text1">
+        Mechanical switches are the primary units of a mechanical keyboard,
+        offering clicky and tactile experiences to users. They work by
+        establishing a connection between a metal piece on the keyboard and one
+        underneath the key. Mechanical switches are of three various types;
+        Tactile, Linear, and Clicky. Tactile keys produce a bump at the center
+        of the keystroke while offering a loud sound. Linear keys are silent,
+        need a little amount of force, and offer zero tactile feedback when
+        used. Finally, clicky switches offer a loud click and a bigger bump at
+        the center of the keystroke, offering a satisfying loud sound.
+      </p>
+      <div id="parts" class="secInfo">
+        <h2>PCB (Printed Circuit Board)</h2>
+        <br />
+        <img class="infoImg" src="./pcb.jpg" alt="pcb" />
+        <p>
+          PCB stands for printed circuit board - this is an important component
+          not just because this is what registers the pressing of the switches,
+          it can also typically store hotkeys, and, for example, is responsible
+          for retaining the memory of a Windows vs a Mac key layout. This also
+          stores the RGB and Bluetooth settings, depending on the keyboard. One
+          factor that may play heavily into your selection of a keyboard is
+          whether or not it's hot swappable. This simply means that there are
+          ports in which to connect the mechanical switches with either 3 or 5
+          slots, making it easy to interchange the switches if you're so
+          inclined. If a keyboard is not hot swappable, this means the switches
+          are actually soldered in place, and not interchangeable.
+        </p>
+      </div>
+      <div class="secInfo">
+        <h2>Plate</h2>
+        <img class="infoImg" src="./plate.jpeg" alt="plate" />
+        <p>
+          The plate's primary function is to hold the switches in place. In
+          addition to offering stabilization, it also plays a big part in the
+          overall feel of the keyboard in action. Sometimes, enthusiasts will
+          modify the plate to adjust their tactile experience. It also serves
+          the function of protecting the underlying PCB from the stress of
+          millions of keystrokes over time.
+        </p>
+      </div>
+      <div class="secInfo">
+        <h2>Case</h2>
+        <img class="infoImg" src="./case.jpg" alt="case" />
+        <p>
+          The case is what holds everything together, and a good case is
+          important for a lot of reasons. Well-built cases are sturdy and don't
+          flex when you try to bend them. They most commonly come in plastic or
+          metal but they're also made in wood, carbon fiber, and so on.
+          Mechanical keyboards are preferred for their unique feel and sound and
+          the case does play a part (as does your desktop) in the overall
+          sensory experience (in other words, it's not just the sound and feel
+          of the switches and keycaps). They do also come in different sizes,
+          including 75% (of full size) and 60%, ideal for more portable set ups,
+          or for increasing the amount of desk space you have. These smaller
+          sizes usually come in “tenkeyless” configuration (TKL), which is
+          without the conventional number pad on the right.
+        </p>
+      </div>
+    </div>
+  </div>
+
+    <div id="switch" class="secSwitches">
+      <h2>Switches</h2>
+      <div class="flex-imgs">
+        <div class="div-container">
+          <img
+            class="switches"
+            src="./cerry-mx-blue.png"
+            alt="cherry blue"
+          />
+          <div class="middle">
+            <div class="text">Cherry blue: Clicky + Tactile 60cN force</div>
+          </div>
+        </div>
+        <div class="div-container">
+          <img
+            class="switches"
+            src="./cherry-mx-black.png"
+            alt="cherry black"
+          />
+          <div class="middle">
+            <div class="text">Cherry black: Linear 60cN force</div>
+          </div>
+        </div>
+        <div class="div-container">
+          <img
+            class="switches"
+            src="./cherry-mx-brown.png"
+            alt="cherry brown"
+          />
+          <div class="middle">
+            <div class="text">Cherry brown: Tactile 55cN force</div>
+          </div>
+        </div>
+        <div class="div-container">
+          <img
+            class="switches"
+            src="./cherry-mx-clear.png"
+            alt="cherry clear"
+          />
+          <div class="middle">
+            <div class="text">Cherry clear: Tactile 65cN force</div>
+          </div>
+        </div>
+        <div class="div-container">
+          <img
+            class="switches"
+            src="./cherry-mx-green.png"
+            alt="cherry green"
+          />
+          <div class="middle">
+            <div class="text">Cherry green: Clicky + Tactile 80cN force</div>
+          </div>
+        </div>
+        <div class="div-container">
+          <img
+            class="switches"
+            src="./cherry-mx-nature-white.png"
+            alt="cherry nature white"
+          />
+          <div class="middle">
+            <div class="text">Cherry nature white: Linear 55cN force</div>
+          </div>
+        </div>
+        <div class="div-container">
+          <img
+            class="switches"
+            src="./cherry-mx-red.png"
+            alt="Cherry red"
+          />
+          <div class="middle">
+            <div class="text">Cherry red: Linear 45cN force</div>
+          </div>
+        </div>
+        <div class="div-container">
+          <img
+            class="switches"
+            src="./cherry-mx-silent-red.png"
+            alt="cherry silent red"
+          />
+          <div class="middle">
+            <div class="text">Cherry silent red: Linear 45cN force</div>
+          </div>
+        </div>
+        <div class="div-container">
+          <img
+            class="switches"
+            src="./cherry-mx-silver.png"
+            alt="cherry silver"
+          />
+          <div class="middle">
+            <div class="text">Cherry silver: Linear 45cN force</div>
+          </div>
+        </div>
+        <div class="div-container">
+          <img
+            class="switches"
+            src="./cherry-mx-tactil-gray.png"
+            alt="cherry tactil gray"
+          />
+          <div class="middle">
+            <div class="text">Cherry tactil gray: Tactile 80cN force</div>
+          </div>
+        </div>
+        <div class="div-container">
+          <img
+            class="switches"
+            src="./cherry-mx-wite.png"
+            alt="cherry white"
+          />
+          <div class="middle">
+            <div class="text">Cherry white: Clicky + Tactile 80cN force</div>
+          </div>
+        </div>
+        <div class="div-container">
+          <img
+            class="switches"
+            src="./gateron-black.png"
+            alt="gateron black"
+          />
+          <div class="middle">
+            <div class="text">Gateron black: Linear 50cN force</div>
+          </div>
+        </div>
+        <div class="div-container">
+          <img
+            class="switches"
+            src="./gateron-blue.png"
+            alt="gateron blue"
+          />
+          <div class="middle">
+            <div class="text">Gateron blue: Clicky + Tactile 55cN force</div>
+          </div>
+        </div>
+        <div class="div-container">
+          <img
+            class="switches"
+            src="./gateron-brown.png"
+            alt="gateron brown"
+          />
+          <div class="middle">
+            <div class="text">Gateron brown: Tactile 45cN force</div>
+          </div>
+        </div>
+        <div class="div-container">
+          <img
+            class="switches"
+            src="./gateron-clear.png"
+            alt="gateron clear"
+          />
+          <div class="middle">
+            <div class="text">Gateron clear: Linear 35cN force</div>
+          </div>
+        </div>
+        <div class="div-container">
+          <img
+            class="switches"
+            src="./gateron-red.png"
+            alt="gateron red"
+          />
+          <div class="middle">
+            <div class="text">Gateron red: Linear 45cN force</div>
+          </div>
+        </div>
+        <div class="div-container">
+          <img
+            class="switches"
+            src="./Gateron_Yellow_Switch.jpg"
+            alt="gateron yellow"
+          />
+          <div class="middle">
+            <div class="text">Gateron yellow: Linear 50cN force</div>
+          </div>
+        </div>
+        <div class="div-container">
+          <img
+            class="switches"
+            src="./Greetech_Blue_Switch.png"
+            alt="Greentech blue"
+          />
+          <div class="middle">
+            <div class="text">Greentech blue: Clicky + Tactile 50cN force</div>
+          </div>
+        </div>
+        <div class="div-container">
+          <img
+            class="switches"
+            src="./Greetech_Brown_Switch.png"
+            alt="greentech brown"
+          />
+          <div class="middle">
+            <div class="text">Greentech brown: Tactile 45cN force</div>
+          </div>
+        </div>
+        <div class="div-container">
+          <img
+            class="switches"
+            src="./Kailh-Jade-switch.jpg"
+            alt="kailh jade"
+          />
+          <div class="middle">
+            <div class="text">Kaihl jade: Clicky + Tactile 66cN force</div>
+          </div>
+        </div>
+        <div class="div-container">
+          <img
+            class="switches"
+            src="./Kailh-Navy_Switch.png"
+            alt="kaihl navy"
+          />
+          <div class="middle">
+            <div class="text">Kaihl navy: Clicky + Tactile 77cN force</div>
+          </div>
+        </div>
+        <div class="div-container">
+          <img
+            class="switches"
+            src="./Kailh_Black_Switch.png"
+            alt="kaihl black"
+          />
+          <div class="middle">
+            <div class="text">Kaihl black: Linear 60cN force</div>
+          </div>
+        </div>
+        <div class="div-container">
+          <img
+            class="switches"
+            src="./Kailh_Brown_Switch.png"
+            alt="kaihl brown"
+          />
+          <div class="middle">
+            <div class="text">Kaihl brown: Tactile 50cN force</div>
+          </div>
+        </div>
+        <div class="div-container">
+          <img
+            class="switches"
+            src="./Kailh_Green_Switch.png"
+            alt="kaihl green"
+          />
+          <div class="middle">
+            <div class="text">Kaihl green: Clicky + Tactile 60cN force</div>
+          </div>
+        </div>
+        <div class="div-container">
+          <img
+            class="switches"
+            src="./Kailh_Red_Switch.png"
+            alt="kaihl red"
+          />
+          <div class="middle">
+            <div class="text">Kaihl red: Linear 50cN force</div>
+          </div>
+        </div>
+        <div class="div-container">
+          <img
+            class="switches"
+            src="./Kailh_Speed_Silver_Switch.jpg"
+            alt="kaihl speed silver"
+          />
+          <div class="middle">
+            <div class="text">Kaihl speed silver: Linear 50cN force</div>
+          </div>
+        </div>
+        <div class="div-container">
+          <img
+            class="switches"
+            src="./KBT_Blue_Switch_78868_thumb.png"
+            alt="kbt blue"
+          />
+          <div class="middle">
+            <div class="text">Kbt blue: Clicky + Tactile 50cN force</div>
+          </div>
+        </div>
+        <div class="div-container">
+          <img
+            class="switches"
+            src="./Matias_Click_Switch.png"
+            alt="matias click"
+          />
+          <div class="middle">
+            <div class="text">Matias click: Clicky + Tactile 55cN force</div>
+          </div>
+        </div>
+        <div class="div-container">
+          <img
+            class="switches"
+            src="./Matias_Linear_Switch.png"
+            alt="matias linear"
+          />
+          <div class="middle">
+            <div class="text">Matias linear: Linear 35cN force</div>
+          </div>
+        </div>
+        <div class="div-container">
+          <img
+            class="switches"
+            src="./Matias_Quiet_Click_Switch.jpg"
+            alt="matias quiet click"
+          />
+          <div class="middle">
+            <div class="text">
+              Matias quiet click: Clicky + Tactile 55cN force
+            </div>
+          </div>
+        </div>
+        <div class="div-container">
+          <img
+            class="switches"
+            src="./Outemu_Blue_Switch.jpg"
+            alt="outemu blue"
+          />
+          <div class="middle">
+            <div class="text">Outemu blue: Clicky + Tactile 60cN force</div>
+          </div>
+        </div>
+        <div class="div-container">
+          <img
+            class="switches"
+            src="./Outemu_Brown_Switch.jpg"
+            alt="outemu brown"
+          />
+          <div class="middle">
+            <div class="text">Outemu brown: Tactile 55cN force</div>
+          </div>
+        </div>
+        <div class="div-container">
+          <img
+            class="switches"
+            src="./Outemu_Red_Switch.jpg"
+            alt="Outemu red"
+          />
+          <div class="middle">
+            <div class="text">Outemu red: Linear 50cN force</div>
+          </div>
+        </div>
+        <div class="div-container">
+          <img
+            class="switches"
+            src="./Topre_35g_Switch.png"
+            alt="topre 35g"
+          />
+          <div class="middle">
+            <div class="text">Topre 35g: Tactile 35cN force</div>
+          </div>
+        </div>
+        <div class="div-container">
+          <img
+            class="switches"
+            src="./Topre_45g_Switch_412ad_thumb.png"
+            alt="topre 45g"
+          />
+          <div class="middle">
+            <div class="text">Topre 45g: Tactile 45cN force</div>
+          </div>
+        </div>
+    </div>
+    </div>
+    <div id="sizes" class="secSizes">
+      <h2>Keyboard sizes</h2>
+      <table>
+        <tr>
+          <td><img class="item1" src="./keyboard-sizes.jpg" alt="" /></td>
+        <td class="tableText"> <b>Full size/100%:</b> The most common size is probably the full size
+          keyboard with 104 or 108 keys. All keys are in the standard size with
+          large 2.25x & 2.75x shift keys, a 6.25x space bar, and all the
+          modifiers at the bottom row are 1.25x, big enough to avoid mistyping.
+          It comes from the traditional size with all alphabets, function keys,
+          cursors keys, modifiers, and a numeric keypad, which is almighty for
+          both gaming and working. If you haven't tried any mechanical keyboard
+          before, the full size version is a good choice to start a transition.
+          <br /><br />
+          <b>1800 Compact/98 keys & 96%:</b>There are mainly two types of
+          keyboards which are both considered as 1800 compact or 96% size. One
+          rarely-seen version is to include all the keys that a full-size
+          keyboard has, but it removes the space between different key clusters
+          such as the home clusters and the numpad. Besides being more compact,
+          there is no difference between this version and a full-size keyboard.
+          The other one seems to become more popular in recent years, which not
+          only removes the space but also rearranges the key layout to either
+          move or skip some less-commonly used keys from the home cluster such
+          as Insert, Home, End, and PrtSc. <br /><br />
+          <b>TKL - Tenkeyless - 87 keys</b> The Tenkeyless or TKL keyboard, like
+          the name, is the type that bluntly cuts off the numeric pad based on
+          the full-size keyboard. This simple action of shortening the keyboard
+          is however very effective for those who don't use the numpad often. On
+          closer inspection, the 87-key keyboard is not losing any keys as there
+          are still numeric keys and math symbols above the alphabets, and most
+          of the keys still sit where they are without any shortening. The TKL
+          keyboard saves enough space for a mouse and hence it is also quite
+          popular among enthusiasts. <br /><br />
+          <b>75% Keyboard</b> A 75% keyboard is more of a compact version of a
+          TKL: function keys and arrow keys remain, and home cluster keys
+          reshuffle on the right side of the keyboard. Of course, to fulfill the
+          goal to be as compact and functional as possible, some large keys like
+          the right shift are cut to 1.75x, and the right modifiers are also
+          reduced to 1x. This shortened size allows people to keep the alphabet
+          area aligned with the center of the monitor, offering a comfortable
+          typing position. <br /><br />
+          <b>65% Keyboard</b> Still, there is a lot to dig in the compact
+          keyboard world. For example, some people, who don't deal with the
+          function keys frequently, still want to get a more compact keyboard
+          than the 75% ones. To make things bolder, this 65% keyboard is created
+          without function keys. In fact, the 65% keyboard stands out for
+          remaining the essential keys like alphabets, arrows, and other
+          function keys. The advantage of being center-to-center with the screen
+          from 75% has already been inherited because there are not many changes
+          on the side. <br /><br />
+          <b>60% Keyboard</b> The original generation of compact mechanical
+          keyboards should count in the 60% ones. With the letters, a spacebar,
+          and an enter key, it is just like a typewriter which was developed in
+          the 1700s. Compared with the 65% or TKL keyboards, the 61-key goes
+          further by removing the arrow keys from a standard keyboard. It was
+          originally perfect for typists. The key sizes are not changed, just
+          like the standard full-size with large shift keys and easy to type.
+        </p></td>
+        </tr>
+      </table>
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script src="app.js"></script>
+  </body>
+</html>
